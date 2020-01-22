@@ -1,0 +1,16 @@
+{
+    "name": "unga-bunga",
+    "version": "0.0.1",
+    "description": "Give me code.",
+    "preferGlobal": "true",
+    "bin": {
+        "unga": "ungaBunga.js"
+    },
+    "author": "Christian Menk",
+    "engines": {
+        "node": "*"
+    },
+    "dependencies": {
+        "manakin": "^0.5.2"
+    }
+}
