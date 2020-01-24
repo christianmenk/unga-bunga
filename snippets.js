@@ -64,4 +64,6 @@ class MyComponent extends React.Component {
   }
 
 }`
+}
+
 module.exports = bungas
