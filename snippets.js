@@ -51,8 +51,8 @@ export function postAPI(data) {
     }
 }
 `,
-    "react-component":
-        `
+"react-component":
+`
 import React from "react"
 class MyComponent extends React.Component {
     constructor(props) {
@@ -63,6 +63,21 @@ class MyComponent extends React.Component {
     return <div></div>
   }
 
+}`,
+"reducer":
+`
+const initialstate = {
+    variableName: []
+}
+export default function Reducer(state = initialState, action) {
+    switch (action.type) {
+        case 'ACTION': {
+            return Object.assign({}, state, {
+                variableName: action.payload,
+            });
+        }
+    }
+    return state
 }`
 }
 
